@@ -1,0 +1,12 @@
+.tabs {
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+.tabs button {
+  margin-right: 0.5rem;
+}
+
+.tabs [data-panel] {
+  margin-top: 1rem;
+}
