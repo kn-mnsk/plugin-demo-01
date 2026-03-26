@@ -24,6 +24,8 @@ export class DocsViewer {
 
     const nodes = this.root.querySelectorAll('[data-plugin]');
 
+    console.log(`Log: DocsViewer mountPlugins: PLUGINS`, PLUGINS);
+
     nodes.forEach(el => {
       const ns = el.getAttribute('data-plugin');
       const plugin = PLUGINS.find(p => p.namespace === ns);

@@ -1,0 +1,36 @@
+.debug-timeline-block {
+  height: 20px;
+  margin-right: 2px;
+  border-radius: 2px;
+}
+
+.debug-log-entry {
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.debug-log-header {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.debug-log-error {
+  color: #ff6b6b;
+  white-space: pre-wrap;
+}
+
+.debug-log-payload {
+  color: #ccc;
+  white-space: pre-wrap;
+}
+
+.debug-panel-row {
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.plugin-name {
+  font-weight: bold;
+}
